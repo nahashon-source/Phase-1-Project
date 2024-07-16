@@ -1,0 +1,132 @@
+body{
+    padding: 5px;
+    background-image: url(https://images.unsplash.com/photo-1560421741-47c568789776?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 155vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+#navbar{
+    background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(194,23,61,1) 25%, rgba(214,89,16,1) 93%);
+margin-bottom: 10px;
+}
+#searchbx{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#searchbtn{
+    margin-left: 10px;
+}
+.searchList{
+    max-width: 50vh;
+}
+
+.recipediv{
+    display: flex;
+    flex-direction: row;
+}
+
+.recipeimage{
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+.list-item{
+    color:  rgba(2,0,36,1);;
+}
+
+.likeSect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.CommentButton{
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#wordingDiv{
+    padding-top: 45px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.grid{
+    height: 500px;
+    background-color: red;
+}
+.cardingDiv {
+    --bg: rgba(2,0,36,1);
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .card-ovly {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-conic-gradient(var(--bg) 0.0000001%, var(--grey) 0.000104%) 60% 60%/600% 600%;
+    filter: opacity(10%) contrast(105%);
+  }
+  
+  .card-in {
+    display: -webkit-box;
+    padding: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-height: 800px;
+    background-color: var(--contrast);
+    border-radius: 20px;
+    /* Content style */
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+  }
+  .Likebutton {
+    border: none;
+    outline: none;
+    background-color: #2208eb;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
+  
+  .Likebutton:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
+ 
+  .CommentButton{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(194,23,61,1) 25%, rgba(214,89,16,1) 93%);
+  }
+  .CommentButton:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
