@@ -1,18 +1,171 @@
 {
-    "drinks": [
-      {
-        "idDrink": "11007",
-        "strDrink": "Margarita",
-        "strCategory": "Ordinary Drink",
-        "strAlcoholic": "Alcoholic",
-        "strGlass": "Cocktail glass",
-        "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-        "strIngredient1": "Tequila",
-        "strIngredient2": "Triple sec",
-        "strIngredient3": "Lime juice",
-        "strIngredient4": "Salt"
-      }
-    ]
-  }
-  
+  "cocktails": [
+    {
+      "id": "1",
+      "name": "Margarita",
+      "image": "https://www.thecocktaildb.com/images/media/drink/wpxpvu1439905379.jpg",
+      "ingredients": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "instructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+      "likes": 10,
+      "comments": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mojito",
+      "image": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+      "ingredients": [
+        5,
+        3,
+        6,
+        7,
+        8
+      ],
+      "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with ice. Pour the rum over the ice, and fill the glass with soda water. Garnish and serve with a straw.",
+      "likes": 25,
+      "comments": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "8027",
+      "name": "nash",
+      "ingredients": [
+        "MIX"
+      ],
+      "instructions": "MIX",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": "e17e",
+      "name": "MIX ",
+      "ingredients": [
+        "MIX"
+      ],
+      "instructions": "MIX\n",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": "c435",
+      "name": "nash",
+      "ingredients": [
+        "MIX"
+      ],
+      "instructions": "MIX\n",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": "c8f3",
+      "name": "NSD",
+      "ingredients": [
+        "MIX"
+      ],
+      "instructions": "ADD",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": "da33",
+      "name": "nash",
+      "ingredients": [
+        "salt",
+        "lemon",
+        "lemon"
+      ],
+      "instructions": "mix",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": "f34a",
+      "name": "Sprite",
+      "ingredients": [
+        "lemon",
+        "mint",
+        ""
+      ],
+      "instructions": "mix",
+      "likes": 0,
+      "comments": []
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "Tequila"
+    },
+    {
+      "id": "2",
+      "name": "Triple sec"
+    },
+    {
+      "id": "3",
+      "name": "Lime juice"
+    },
+    {
+      "id": "4",
+      "name": "Salt"
+    },
+    {
+      "id": "5",
+      "name": "Light rum"
+    },
+    {
+      "id": "6",
+      "name": "Sugar"
+    },
+    {
+      "id": "7",
+      "name": "Mint"
+    },
+    {
+      "id": "8",
+      "name": "Soda water"
+    }
+  ],
+  "likes": [
+    {
+      "id": "1",
+      "cocktailId": 1,
+      "count": 10
+    },
+    {
+      "id": "2",
+      "cocktailId": 2,
+      "count": 25
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "cocktailId": 1,
+      "text": "Refreshing and easy to make!"
+    },
+    {
+      "id": "2",
+      "cocktailId": 1,
+      "text": "Perfect for a summer evening."
+    },
+    {
+      "id": "3",
+      "cocktailId": 2,
+      "text": "My favorite cocktail!"
+    },
+    {
+      "id": "4",
+      "cocktailId": 2,
+      "text": "Very refreshing and delicious."
+    }
+  ]
+}
